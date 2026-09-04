@@ -1,3 +1,8 @@
+@font-face{
+Src:url(“Fabian.otf”);
+Font-family:Fabian;
+}
+
 body {
     margin: 0px;
 }
@@ -14,8 +19,9 @@ body {
 .about{
     margin:30px auto;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:26px;
+    text-shadow: .90px .90px rgb(251, 251, 253);
 }
 .image{
     display: flex;
